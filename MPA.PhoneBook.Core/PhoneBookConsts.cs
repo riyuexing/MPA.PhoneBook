@@ -4,6 +4,7 @@
     {
         public const string LocalizationSourceName = "PhoneBook";
 
-        public const bool MultiTenancyEnabled = true;
+        //false 设置为单一租户;
+        public const bool MultiTenancyEnabled = false;
     }
 }
